@@ -1,3 +1,11 @@
+/* CUSTOM PROPS */
+:root{
+--body-bg:#f1f4ff;
+--green:#4dc490;
+--pruple:#655AF2;
+--red:#F03535;
+--text-color:#000;
+}
 /* GLOBAL */
 html{
   box-sizing: border-box;
@@ -20,7 +28,7 @@ body {
   line-height: 1.5;
   font-family: "Arial" sans-serif;
   background-color: #fff;
-  color: #222;
+  color: var(--text-color);
 }
 img{
   max-width: 100%;
